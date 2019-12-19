@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-12-19T14:18:05.914Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36" etag="4IK8XiDCBrK2Y82QKtrG" version="12.4.3" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-12-19T14:19:53.412Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36" etag="TEXlzAQWodprFuyfYz4T" version="12.4.3" type="github" pages="1">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
     <mxGraphModel dx="1810" dy="1860" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -28,13 +28,13 @@
         <mxCell id="wSXgMUYu-MjiUpLtR-jo-125" value="props:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#0000FF;" parent="wSXgMUYu-MjiUpLtR-jo-124" vertex="1">
           <mxGeometry y="26" width="230" height="26" as="geometry"/>
         </mxCell>
-        <mxCell id="wSXgMUYu-MjiUpLtR-jo-126" value="state:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#009900;" parent="wSXgMUYu-MjiUpLtR-jo-124" vertex="1">
+        <mxCell id="wSXgMUYu-MjiUpLtR-jo-126" value="state: email, pwd" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#CC0000;" parent="wSXgMUYu-MjiUpLtR-jo-124" vertex="1">
           <mxGeometry y="52" width="230" height="26" as="geometry"/>
         </mxCell>
         <mxCell id="wSXgMUYu-MjiUpLtR-jo-127" value="" style="line;html=1;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="wSXgMUYu-MjiUpLtR-jo-124" vertex="1">
           <mxGeometry y="78" width="230" height="8" as="geometry"/>
         </mxCell>
-        <mxCell id="78961159f06e98e8-26" value="image: switch.png" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="wSXgMUYu-MjiUpLtR-jo-124" vertex="1">
+        <mxCell id="78961159f06e98e8-26" value="image: switch_icon.png" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="wSXgMUYu-MjiUpLtR-jo-124" vertex="1">
           <mxGeometry y="86" width="230" height="26" as="geometry"/>
         </mxCell>
         <mxCell id="78961159f06e98e8-24" value="text: 환영합니다." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="wSXgMUYu-MjiUpLtR-jo-124" vertex="1">
