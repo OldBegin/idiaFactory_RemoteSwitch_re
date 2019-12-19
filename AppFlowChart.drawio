@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2019-12-19T09:33:50.488Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36" etag="rGhicrfigg7x_dDMdL7w" version="12.4.3" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-12-19T14:18:05.914Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36" etag="4IK8XiDCBrK2Y82QKtrG" version="12.4.3" type="github" pages="1">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
-    <mxGraphModel dx="1402" dy="1587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1810" dy="1860" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
@@ -34,7 +34,7 @@
         <mxCell id="wSXgMUYu-MjiUpLtR-jo-127" value="" style="line;html=1;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="wSXgMUYu-MjiUpLtR-jo-124" vertex="1">
           <mxGeometry y="78" width="230" height="8" as="geometry"/>
         </mxCell>
-        <mxCell id="78961159f06e98e8-26" value="image: switch_small.png&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="wSXgMUYu-MjiUpLtR-jo-124" vertex="1">
+        <mxCell id="78961159f06e98e8-26" value="image: switch.png" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="wSXgMUYu-MjiUpLtR-jo-124" vertex="1">
           <mxGeometry y="86" width="230" height="26" as="geometry"/>
         </mxCell>
         <mxCell id="78961159f06e98e8-24" value="text: 환영합니다." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="wSXgMUYu-MjiUpLtR-jo-124" vertex="1">
@@ -213,6 +213,21 @@
         </mxCell>
         <mxCell id="wSXgMUYu-MjiUpLtR-jo-203" value="method()" style="text;html=1;resizable=0;autosize=1;align=left;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;spacingLeft=4;fontColor=#CC6600;" parent="wSXgMUYu-MjiUpLtR-jo-193" vertex="1">
           <mxGeometry y="212" width="230" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="6Hs-UY0hFxuYXdTOqs6u-2" value="Librarys" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#fff2cc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="-790" width="240" height="130" as="geometry"/>
+        </mxCell>
+        <mxCell id="6Hs-UY0hFxuYXdTOqs6u-3" value="npm install --save react-navigation" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="6Hs-UY0hFxuYXdTOqs6u-2">
+          <mxGeometry y="26" width="240" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="6Hs-UY0hFxuYXdTOqs6u-7" value="yarn add react-native-gesture-handler" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="6Hs-UY0hFxuYXdTOqs6u-2">
+          <mxGeometry y="52" width="240" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="6Hs-UY0hFxuYXdTOqs6u-8" value="yarn add react-navigation-stack" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="6Hs-UY0hFxuYXdTOqs6u-2">
+          <mxGeometry y="78" width="240" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="6Hs-UY0hFxuYXdTOqs6u-6" value="@react-native-community/async-storage" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=0;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="6Hs-UY0hFxuYXdTOqs6u-2">
+          <mxGeometry y="104" width="240" height="26" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
