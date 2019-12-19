@@ -12,20 +12,32 @@ export default class MainScreen extends Component {
     title: 'Switch',
   };
   render() {
+    console.log('isTurnedOn:', this.state.isTurnedOn);
+    const {isTurnedOn} = this.state;
     const {navigate} = this.props.navigation;
     return (
       <View style={styles.container}>
         <Text style={styles.text}>MainScreen</Text>
-        <Text style={styles.textSetting}>설정</Text>
-        <TouchableOpacity onPress={() => navigate('Home')}>
+        <TouchableOpacity onPress={() => navigate('SignupScreen')}>
+          <Text style={styles.textSetting}>설정</Text>
+        </TouchableOpacity>
+        <TouchableOpacity onPress={() => this._toggleSwitch()}>
           <Image
-            source={require('./images/switch_off.png')}
+            source={
+              isTurnedOn
+                ? require('./images/switch_on.png')
+                : require('./images/switch_off.png')
+            }
             style={styles.image}
           />
         </TouchableOpacity>
       </View>
     );
   }
+  _toggleSwitch = () => {
+    console.log('toggled');
+    this.setState({isTurnedOn: !this.state.isTurnedOn});
+  };
 }
 
 const styles = StyleSheet.create({

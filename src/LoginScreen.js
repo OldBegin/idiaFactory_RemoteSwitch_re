@@ -54,7 +54,7 @@ export default class LoginScreen extends Component {
   };
   _onSubmit = () => {
     const {navigate} = this.props.navigation;
-    return this.setState;
+    return () => navigate('MainScreen');
   };
 }
 
