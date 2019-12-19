@@ -12,10 +12,14 @@
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		15087071197D138E5DD307F6 /* libPods-idiaFactory_RemoteSwitch_refac-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 064A0F53B2246B7BDAC68AF4 /* libPods-idiaFactory_RemoteSwitch_refac-tvOSTests.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* idiaFactory_RemoteSwitch_refacTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* idiaFactory_RemoteSwitch_refacTests.m */; };
+		6FED2B0319EE5D9297E0A9D9 /* libPods-idiaFactory_RemoteSwitch_refac-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E1D2B4DBAE71EE934637A884 /* libPods-idiaFactory_RemoteSwitch_refac-tvOS.a */; };
+		9EFC339CD6F1E7C0EFD6F3B5 /* libPods-idiaFactory_RemoteSwitch_refac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 35B97958A71BAC17B8926032 /* libPods-idiaFactory_RemoteSwitch_refac.a */; };
+		C6A6BBBE45803780ADFBE1AC /* libPods-idiaFactory_RemoteSwitch_refacTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A52AFA739917C1C5C8CC2542 /* libPods-idiaFactory_RemoteSwitch_refacTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,8 @@
 		00E356EE1AD99517003FC87E /* idiaFactory_RemoteSwitch_refacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = idiaFactory_RemoteSwitch_refacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* idiaFactory_RemoteSwitch_refacTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = idiaFactory_RemoteSwitch_refacTests.m; sourceTree = "<group>"; };
+		064A0F53B2246B7BDAC68AF4 /* libPods-idiaFactory_RemoteSwitch_refac-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-idiaFactory_RemoteSwitch_refac-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F92D92C1D9A9D820E6C5DA0 /* Pods-idiaFactory_RemoteSwitch_refacTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-idiaFactory_RemoteSwitch_refacTests.debug.xcconfig"; path = "Target Support Files/Pods-idiaFactory_RemoteSwitch_refacTests/Pods-idiaFactory_RemoteSwitch_refacTests.debug.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* idiaFactory_RemoteSwitch_refac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = idiaFactory_RemoteSwitch_refac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = idiaFactory_RemoteSwitch_refac/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = idiaFactory_RemoteSwitch_refac/AppDelegate.m; sourceTree = "<group>"; };
@@ -49,8 +55,18 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = idiaFactory_RemoteSwitch_refac/main.m; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* idiaFactory_RemoteSwitch_refac-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "idiaFactory_RemoteSwitch_refac-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* idiaFactory_RemoteSwitch_refac-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "idiaFactory_RemoteSwitch_refac-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35B97958A71BAC17B8926032 /* libPods-idiaFactory_RemoteSwitch_refac.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-idiaFactory_RemoteSwitch_refac.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B33D3BC83FE690CB6B38C1C /* Pods-idiaFactory_RemoteSwitch_refacTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-idiaFactory_RemoteSwitch_refacTests.release.xcconfig"; path = "Target Support Files/Pods-idiaFactory_RemoteSwitch_refacTests/Pods-idiaFactory_RemoteSwitch_refacTests.release.xcconfig"; sourceTree = "<group>"; };
+		6EEA83AD514131E2CF3FF38C /* Pods-idiaFactory_RemoteSwitch_refac-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-idiaFactory_RemoteSwitch_refac-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-idiaFactory_RemoteSwitch_refac-tvOS/Pods-idiaFactory_RemoteSwitch_refac-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		90759A1BA60455B17F87B76D /* Pods-idiaFactory_RemoteSwitch_refac-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-idiaFactory_RemoteSwitch_refac-tvOS.release.xcconfig"; path = "Target Support Files/Pods-idiaFactory_RemoteSwitch_refac-tvOS/Pods-idiaFactory_RemoteSwitch_refac-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		A52AFA739917C1C5C8CC2542 /* libPods-idiaFactory_RemoteSwitch_refacTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-idiaFactory_RemoteSwitch_refacTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B92499259AD768B0A34F89DE /* Pods-idiaFactory_RemoteSwitch_refac.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-idiaFactory_RemoteSwitch_refac.release.xcconfig"; path = "Target Support Files/Pods-idiaFactory_RemoteSwitch_refac/Pods-idiaFactory_RemoteSwitch_refac.release.xcconfig"; sourceTree = "<group>"; };
+		D4D02AE78201FC82594F9AB7 /* Pods-idiaFactory_RemoteSwitch_refac-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-idiaFactory_RemoteSwitch_refac-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-idiaFactory_RemoteSwitch_refac-tvOSTests/Pods-idiaFactory_RemoteSwitch_refac-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DAC45E6C39EF168332FF7890 /* Pods-idiaFactory_RemoteSwitch_refac-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-idiaFactory_RemoteSwitch_refac-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-idiaFactory_RemoteSwitch_refac-tvOSTests/Pods-idiaFactory_RemoteSwitch_refac-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		E1D2B4DBAE71EE934637A884 /* libPods-idiaFactory_RemoteSwitch_refac-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-idiaFactory_RemoteSwitch_refac-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		F608A17C009DE4CDC38AFE35 /* Pods-idiaFactory_RemoteSwitch_refac.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-idiaFactory_RemoteSwitch_refac.debug.xcconfig"; path = "Target Support Files/Pods-idiaFactory_RemoteSwitch_refac/Pods-idiaFactory_RemoteSwitch_refac.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6A6BBBE45803780ADFBE1AC /* libPods-idiaFactory_RemoteSwitch_refacTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EFC339CD6F1E7C0EFD6F3B5 /* libPods-idiaFactory_RemoteSwitch_refac.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FED2B0319EE5D9297E0A9D9 /* libPods-idiaFactory_RemoteSwitch_refac-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15087071197D138E5DD307F6 /* libPods-idiaFactory_RemoteSwitch_refac-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,6 +122,22 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		027C201887FBB1C99780A142 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F608A17C009DE4CDC38AFE35 /* Pods-idiaFactory_RemoteSwitch_refac.debug.xcconfig */,
+				B92499259AD768B0A34F89DE /* Pods-idiaFactory_RemoteSwitch_refac.release.xcconfig */,
+				6EEA83AD514131E2CF3FF38C /* Pods-idiaFactory_RemoteSwitch_refac-tvOS.debug.xcconfig */,
+				90759A1BA60455B17F87B76D /* Pods-idiaFactory_RemoteSwitch_refac-tvOS.release.xcconfig */,
+				D4D02AE78201FC82594F9AB7 /* Pods-idiaFactory_RemoteSwitch_refac-tvOSTests.debug.xcconfig */,
+				DAC45E6C39EF168332FF7890 /* Pods-idiaFactory_RemoteSwitch_refac-tvOSTests.release.xcconfig */,
+				0F92D92C1D9A9D820E6C5DA0 /* Pods-idiaFactory_RemoteSwitch_refacTests.debug.xcconfig */,
+				6B33D3BC83FE690CB6B38C1C /* Pods-idiaFactory_RemoteSwitch_refacTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		13B07FAE1A68108700A75B9A /* idiaFactory_RemoteSwitch_refac */ = {
 			isa = PBXGroup;
 			children = (
@@ -121,6 +157,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
+				35B97958A71BAC17B8926032 /* libPods-idiaFactory_RemoteSwitch_refac.a */,
+				E1D2B4DBAE71EE934637A884 /* libPods-idiaFactory_RemoteSwitch_refac-tvOS.a */,
+				064A0F53B2246B7BDAC68AF4 /* libPods-idiaFactory_RemoteSwitch_refac-tvOSTests.a */,
+				A52AFA739917C1C5C8CC2542 /* libPods-idiaFactory_RemoteSwitch_refacTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -140,6 +180,7 @@
 				00E356EF1AD99517003FC87E /* idiaFactory_RemoteSwitch_refacTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				027C201887FBB1C99780A142 /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -164,6 +205,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "idiaFactory_RemoteSwitch_refacTests" */;
 			buildPhases = (
+				AB44671781F250F7947811DE /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
@@ -182,6 +224,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "idiaFactory_RemoteSwitch_refac" */;
 			buildPhases = (
+				3325DDEFA9A933FEFA3B6502 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
@@ -193,7 +236,7 @@
 			dependencies = (
 			);
 			name = idiaFactory_RemoteSwitch_refac;
-			productName = "idiaFactory_RemoteSwitch_refac";
+			productName = idiaFactory_RemoteSwitch_refac;
 			productReference = 13B07F961A680F5B00A75B9A /* idiaFactory_RemoteSwitch_refac.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -201,6 +244,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "idiaFactory_RemoteSwitch_refac-tvOS" */;
 			buildPhases = (
+				553B543EA3E26B314FA9B1D9 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -220,6 +264,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "idiaFactory_RemoteSwitch_refac-tvOSTests" */;
 			buildPhases = (
+				D428AF48F49122FB84DB6194 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -342,6 +387,94 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
+		3325DDEFA9A933FEFA3B6502 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-idiaFactory_RemoteSwitch_refac-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		553B543EA3E26B314FA9B1D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-idiaFactory_RemoteSwitch_refac-tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB44671781F250F7947811DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-idiaFactory_RemoteSwitch_refacTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D428AF48F49122FB84DB6194 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-idiaFactory_RemoteSwitch_refac-tvOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -447,6 +580,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F92D92C1D9A9D820E6C5DA0 /* Pods-idiaFactory_RemoteSwitch_refacTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -469,6 +603,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B33D3BC83FE690CB6B38C1C /* Pods-idiaFactory_RemoteSwitch_refacTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -488,6 +623,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F608A17C009DE4CDC38AFE35 /* Pods-idiaFactory_RemoteSwitch_refac.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
@@ -507,6 +643,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B92499259AD768B0A34F89DE /* Pods-idiaFactory_RemoteSwitch_refac.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
@@ -525,6 +662,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EEA83AD514131E2CF3FF38C /* Pods-idiaFactory_RemoteSwitch_refac-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -552,6 +690,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90759A1BA60455B17F87B76D /* Pods-idiaFactory_RemoteSwitch_refac-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -579,6 +718,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4D02AE78201FC82594F9AB7 /* Pods-idiaFactory_RemoteSwitch_refac-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -605,6 +745,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAC45E6C39EF168332FF7890 /* Pods-idiaFactory_RemoteSwitch_refac-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
