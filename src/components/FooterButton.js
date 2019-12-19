@@ -14,13 +14,19 @@ class FooterButton extends Component {
 }
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
+    borderWidth: 1,
+    borderColor: '#645aff',
+    borderRadius: 25,
+    marginVertical: 20,
     justifyContent: 'center',
     alignItems: 'center',
+    height: 50,
+    width: 280,
+    backgroundColor: '#645aff',
   },
   text: {
     fontSize: 20,
-    color: 'black',
+    color: 'white',
   },
 });
 

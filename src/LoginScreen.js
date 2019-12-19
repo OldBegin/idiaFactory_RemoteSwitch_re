@@ -8,6 +8,7 @@ import {
   TouchableOpacity,
 } from 'react-native';
 
+import FooterButton from './components/FooterButton';
 export default class LoginScreen extends Component {
   constructor(props) {
     super(props);
@@ -43,8 +44,8 @@ export default class LoginScreen extends Component {
           value={pwd}
           style={styles.textInput}
         />
-        <TouchableOpacity onPress={this._onSubmit()}>
-          <Text style={styles.text}>Login</Text>
+        <TouchableOpacity onPress={() => this._onSubmit()}>
+          <FooterButton />
         </TouchableOpacity>
       </View>
     );
@@ -54,7 +55,7 @@ export default class LoginScreen extends Component {
   };
   _onSubmit = () => {
     const {navigate} = this.props.navigation;
-    return () => navigate('MainScreen');
+    () => navigate('MainScreen');
   };
 }
 
@@ -63,6 +64,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
+    backgroundColor: '#dbdbdb',
   },
   image: {
     marginTop: 103,
@@ -80,7 +82,8 @@ const styles = StyleSheet.create({
     paddingHorizontal: 10,
     height: 50,
     width: 288,
-    borderWidth: 1,
-    borderColor: '#5b5a5a',
+    borderWidth: 0.5,
+    backgroundColor: 'white',
+    borderColor: 'gray',
   },
 });

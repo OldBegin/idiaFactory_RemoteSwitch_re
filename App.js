@@ -6,7 +6,7 @@ import MainScreen from './src/MainScreen';
 import SignupScreen from './src/SignupScreen';
 
 const AppNavi = createStackNavigator({
-  Home: {screen: SignupScreen},
+  Home: {screen: LoginScreen},
   MainScreen: {screen: MainScreen},
   SignupScreen: {screen: SignupScreen},
 });
