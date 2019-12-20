@@ -16,6 +16,7 @@ $ cd ios/ && pod install
 
 #### @react-native-community/async-storage
 리액트 기본 api인 async-storage 가 deprecated 됨
+이 라이브러리는 본 예제에서 아직 사용안함.
 ```js
 $ yarn add @react-native-community/async-storage
 $ cd ios/ && pod install
