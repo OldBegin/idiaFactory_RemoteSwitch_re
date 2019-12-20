@@ -30,7 +30,7 @@ export default class SignupScreen extends Component {
           value={uid}
           style={styles.textInput}
         />
-        <TextInput
+        <TextInput  
           onChangeText={val => this._onChangeTextOf('email', val)}
           placeholder="이메일"
           value={email}
@@ -42,7 +42,8 @@ export default class SignupScreen extends Component {
           value={pwd}
           style={styles.textInput}
         />
-        <FooterButton />
+        <FooterButton onPress={()=>navigate('Home')} />
+   
         <Text style={styles.descText}>
           회원가입시 이용약관에 동의한 것으로 간주합니다.
         </Text>

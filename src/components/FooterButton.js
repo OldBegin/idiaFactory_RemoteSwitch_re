@@ -3,8 +3,9 @@ import {View, TouchableOpacity, Text, StyleSheet} from 'react-native';
 
 class FooterButton extends Component {
   render() {
+    console.log('props in button:',this.props)
     return (
-      <TouchableOpacity>
+      <TouchableOpacity onPress={this.props.onPress}>
         <View style={styles.container}>
           <Text style={styles.text}>FooterButton</Text>
         </View>
@@ -15,7 +16,7 @@ class FooterButton extends Component {
 const styles = StyleSheet.create({
   container: {
     borderWidth: 1,
-    borderColor: '#645aff',
+    borderColor: '#645aff',  
     borderRadius: 25,
     marginVertical: 20,
     justifyContent: 'center',

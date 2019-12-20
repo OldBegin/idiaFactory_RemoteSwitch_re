@@ -7,8 +7,9 @@ import {
   Image,
   TouchableOpacity,
 } from 'react-native';
-
 import FooterButton from './components/FooterButton';
+
+
 export default class LoginScreen extends Component {
   constructor(props) {
     super(props);
@@ -23,7 +24,7 @@ export default class LoginScreen extends Component {
 
   render() {
     console.log('login screen props: ', this.props);
-
+    const {navigate} = this.props.navigation;
     const {email, pwd} = this.state;
     return (
       <View style={styles.container}>
@@ -38,15 +39,13 @@ export default class LoginScreen extends Component {
           value={email}
           style={styles.textInput}
         />
-        <TextInput
+        <TextInput  
           onChangeText={val => this._onChangeTextOf('pwd', val)}
           placeholder="비밀번호"
           value={pwd}
           style={styles.textInput}
         />
-        <TouchableOpacity onPress={() => this._onSubmit()}>
-          <FooterButton />
-        </TouchableOpacity>
+        <FooterButton onPress={()=>navigate('MainScreen')}/>
       </View>
     );
   }
